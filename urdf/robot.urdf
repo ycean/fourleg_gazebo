@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<robot name="fourleg">
+
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/f_r/f_body.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <link name="L1_Link1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L1_Link1.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L1_Link2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L1_Link2.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L1_Link3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L1_Link3.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L2_Link1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L2_Link1.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L2_Link2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L2_Link2.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L2_Link3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L2_Link3.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L3_Link1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L3_Link1.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L3_Link2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L3_Link2.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L3_Link3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L3_Link3.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L4_Link1">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L4_Link1.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L4_Link2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L4_Link2.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+  <link name="L4_Link3">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename ="package://fourleg_gazebo/meshes/model/L4_Link3.stl" scale= "0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+
+</robot>
