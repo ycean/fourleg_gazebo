@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <rosparam file="$(find fourleg_gazebo)/config/fourleg.yaml" command="load"/>
+
+  <node name="robot_state_publisher_fourleg" pkg="robot_state_publisher" type="robot_state_publisher"
+    respawn="false" output="screen">
+    <param name="publish_frequency" type="double" value="20.0"/>
+    <param name="tf_prefix" type="string" value="fourleg"/>
+    <remap from="/joint_states" to="/fourleg/joint_states"/>
+  </node>
+
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"
+    args="--namespace=/fourleg
+            joint_state_controller
+            leg1_j1_position_controller
+            leg1_j2_position_controller
+            leg1_j3_position_controller
+            leg2_j1_position_controller
+            leg2_j2_position_controller
+            leg2_j3_position_controller
+            leg3_j1_position_controller
+            leg3_j2_position_controller
+            leg3_j3_position_controller
+            leg4_j1_position_controller
+            leg4_j2_position_controller
+            leg4_j3_position_controller
+            --shutdown-timeout 3">
+  </node>
+
+</launch>
