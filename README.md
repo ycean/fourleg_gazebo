@@ -12,7 +12,7 @@ M. S. Ahn, H. Chae, and D. W. Hong, Unknown Terrain Locomotion for Quadrupeds ba
 
 
 ************************************************************************************************************************************
-Manual in launching robot simulation platoform and running walking simulation:
+Manual in launching robot simulation platform and running walking simulation:
 
 
 1. Launch the robot into gazebo platform:
@@ -28,7 +28,7 @@ chanege to script directory : cd ~/catkin_ws/src/fourleg_gazebo/script
 3.Run the simulation in ros
 	 conda activate ros_env
 
-	##for running with QP optimizer
+	##for running with MIQP optimizer
 	./JP_COM_QP_OMNI_DIR_FV3_v2.py   
 
 	##for running with trained joint
